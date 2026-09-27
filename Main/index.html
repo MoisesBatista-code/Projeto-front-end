@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SPA - MZ GAMES</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <header>
+  <nav style="display: flex; align-items: center; justify-content: space-between;">
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <svg width="52" height="52" viewBox="0 0 100 100">
+        <rect width="100" height="100" rx="20" fill="#1E1B4B"/>
+        <path d="M25 70 V35 L40 50 L55 35 V70 M45 35 H75 L50 70 H80" stroke="#7C3AED" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+      <span style="font-weight: bold; color: #7C3AED; font-size: 26px; letter-spacing: 0.5px;">MZ Games</span>
+    </div>
+  </nav>
+</header>
+    <nav>
+      <button data-rota="inicio" class="ativo">Início</button>
+      <button data-rota="cadastro">Cadastro de jogos</button>
+      <button data-rota="lista">Lista de Jogos</button>
+      <button data-rota="sobre">Nossa empresa</button>
+    </nav>
+  </header>
+
+  <main id="app"></main>
+  <script src="script.js"></script>
+  
+</body>
+</html>
