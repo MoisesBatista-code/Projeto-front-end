@@ -22,7 +22,7 @@ const alunos = [];
       app.innerHTML = `
         <h1>Bem vindo a MZ GAMES</h1>
         <p>
-          Somos uma empresa espelizada downloads de Games na nuvem.
+          Somos uma empresa especializada downloads de Games na nuvem.
         </p>
 
         <p>
@@ -107,7 +107,7 @@ const alunos = [];
       if (alunos.length === 0) {
         conteudo.innerHTML = `
           <div class="vazio">
-            Nenhum aluno cadastrado ainda.
+            Nenhum Jogo cadastrado ainda.
           </div>
         `;
         return;
